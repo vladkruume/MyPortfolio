@@ -1,0 +1,35 @@
+:root{
+    --dark-color:#222831;
+    --light-color:#393e46;
+    --llight-color:#b55400;
+
+}
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.top-container{
+    background: linear-gradient(to right top, var(--dark-color),var(--light-color),var(--llight-color));
+    height:450px;
+
+}
+
+.top-wrapper{
+    width:600px;
+    height: 450px;
+    margin: 0 auto;
+    border:2px solid whitesmoke;
+    position: relative;
+}
+.cloud{
+    position: absolute;
+
+}
+.mountain{
+    position:absolute;
+    bottom:0;
+}
+.cloud.cloud1{
+
+}
